@@ -4,7 +4,10 @@
   "description": "node 学习之路",
   "main": "http.js",
   "dependencies": {
+    "ejs": "^2.5.7",
     "md5-node": "^1.0.1",
+    "mongodb": "^3.0.4",
+    "open": "0.0.5",
     "silly-datetime": "^0.1.2"
   },
   "devDependencies": {},

@@ -41,5 +41,6 @@ fs.readdir('node_modules' , function (err , files) {
                 }
             });
         })(0);
+        console.log('是否为异步')
     }
 });

@@ -65,18 +65,18 @@ var fs = require('fs');
 // });
 
 //TODO: 删除目录 fs.rmdir(path,callback) path=需要删除的文件目录 callback=异常回调
-fs.rmdir('node_nodules' , function (err) {
-    if ( err ) {
-        console.log(err);
-        return false;
-    }
-    console.log('删除文件目录成功');
-});
+// fs.rmdir('node_nodules' , function (err) {
+//     if ( err ) {
+//         console.log(err);
+//         return false;
+//     }
+//     console.log('删除文件目录成功');
+// });
 // TODO: 删除文件 fs.unlink(path,callback) path=需要删除的文件名 callback=异常回调
-fs.unlink('test.txt' , function (err) {
-    if ( err ) {
-        console.log(err);
-        return false;
-    }
-    console.log('删除文件成功');
-});
+// fs.unlink('test.txt' , function (err) {
+//     if ( err ) {
+//         console.log(err);
+//         return false;
+//     }
+//     console.log('删除文件成功');
+// });
